@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>CalFit FINAL</title>
+    <head>
+  <meta charset="UTF-8">
+  <title>CalFit FINAL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+    
+  <body>
+  <div class="contenedor-gym">
+  <header>
+    <h1 class="logo">CalFit</h1>
+    <p>Calculadora de Entrenamiento y Salud</p>
+  </header>
+
+  <main class="calculadora">
+    <div class="formulario">
+      <div class="input-caja">
+        <label>EDAD</label>
+        <input type="number" id="edad" placeholder="Años">
+      </div>
+
+      <div class="input-caja">
+        <label>SEXO</label>
+        <select id="sexo">
+          <option value="masculino">MASCULINO</option>
+          <option value="femenino">FEMENINO</option>
+        </select>
+      </div>
+
+      <div class="input-caja">
+        <label>PESO (KG)</label>
+        <input type="number" id="peso" placeholder="Kg">
+      </div>
+
+      <div class="input-caja">
+        <label>ALTURA (CM)</label>
+        <input type="number" id="altura" placeholder="Cm">
+      </div>
+
+      <div class="input-caja full">
+        <label>ACTIVIDAD FÍSICA</label>
+        <select id="actividad">
+          <option value="1.2">Sedentario (No gym)</option>
+          <option value="1.375">Ligero (1-3 días)</option>
+          <option value="1.55">Moderado (3-5 días)</option>
+          <option value="1.725">Fuerte (6-7 días)</option>
+        </select>
+      </div>
+
+      <div class="input-caja full">
+        <label>TU OBJETIVO</label>
+        <select id="objetivo">
+          <option value="-500">PERDER PESO (Definición)</option>
+          <option value="0">MANTENER PESO</option>
+          <option value="500">SUBIR PESO (Volumen)</option>
+        </select>
+      </div>
+
+      <button id="btn-calcular">CALCULAR RESULTADOS</button>
+    </div>
+
+    <section id="resultados" class="seccion-resultados" style="display:none;">
+      <h2>REPORTE FINAL:</h2>
+      
+      <div class="grid-stats">
+        <div class="stat-mini">
+          <span>IMC</span>
+          <strong id="val-imc">--</strong>
+          <small class="info-breve">Relación entre tu peso y tu altura para saber si estás en un rango sano.</small>
+        </div>
+        <div class="stat-mini">
+          <span>TMB</span>
+          <strong id="val-tmb">--</strong>
+          <small class="info-breve">Calorías que tu cuerpo quema en reposo total (solo por existir).</small>
+        </div>
+      </div>
+
+      <div class="barra-contenedor">
+        <div class="barra-colores"></div>
+        <div id="marcador" class="marcador-negro"></div>
+      </div>
+      <p id="txt-estado" class="estado-texto"></p>
+
+      <div class="kcal-resultado">
+        <p>CALORÍAS OBJETIVO:</p>
+        <h3 id="val-kcal">--</h3>
+        <small id="txt-objetivo">kcal diarias para tu meta</small>
+      </div>
+
+      <div class="agua-resultado">
+        <p> AGUA DIARIA RECOMENDADA:</p>
+        <h4 id="val-agua">--</h4>
+      </div>
+
+      <div class="asistente-ia">
+        <h4> CONSEJO DEL ENTRENADOR:</h4>
+        <p id="consejo-ia"></p>
+      </div>
+    </section>
+  </main>
+</div>
+    <script  src="script.js"></script>
+
+  </body>
+  
+</html>
