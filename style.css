@@ -33,13 +33,7 @@
 
 /* El resto del código CSS de la respuesta anterior se mantiene igual */
 body { background-color: #121212; color: #ffffff; font-family: 'Arial Black', Arial, sans-serif; padding: 10px; margin: 0; }
-.contenedor-gym { 
-    width: 95%;           /* Ocupa casi todo el ancho en celulares */
-    max-width: 800px;     /* En computadoras se expande hasta verse "hecho y derecho" */
-    margin: 40px auto;    /* Le da más espacio arriba y abajo */
-    border: 5px solid #ff9100; 
-    /* El resto de tus estilos se quedan igual */
-}
+.contenedor-gym { width: 95%; max-width: 800px; margin: 20px auto; border: 5px solid #ff9100; background-color: #1e1e1e; padding: 25px; box-shadow: 10px 10px 0px #000; text-align: center; }
  5px solid #ff9100; background-color: #1e1e1e; padding: 25px; box-shadow: 10px 10px 0px #000; }
 header .logo { font-size: 60px; color: #ff9100; margin: 0 auto; text-transform: uppercase; display: table; text-align: center; }
 header p { text-align: center; font-size: 11px; color: #888; margin-bottom: 25px; letter-spacing: 1px; }
