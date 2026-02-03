@@ -34,7 +34,7 @@
 
 /* El resto del código CSS de la respuesta anterior se mantiene igual */
 body { background-color: #121212; color: #ffffff; font-family: 'Arial Black', Arial, sans-serif; padding: 10px; margin: 0; }
-.contenedor-gym { width: 98%; max-width: 600px; margin: 40px auto; border: 5px solid #ff9100; background-color: #1e1e1e; padding: 25px; box-shadow: 10px 10px 0px #000; text-align: center; }
+.contenedor-gym { width: 95%; max-width: 800px; margin: 30px auto; border: 5px solid #ff9100; background-color: #1e1e1e; padding: 25px; box-shadow: 10px 10px 0px #000; text-align: center; }
 header .logo { font-size: 60px; text-align: center; color: #ff9100; margin: 0 auto; text-transform: uppercase; width: 100%; display: block; }
 header p { text-align: center; font-size: 14px; color: #888; margin: 10px auto 25px auto; width: 100%; display: block; }
 .formulario { display: flex; flex-wrap: wrap; gap: 12px; }
