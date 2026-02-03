@@ -16,7 +16,7 @@ document.getElementById('btn-calcular').addEventListener('click', function() {
   tmb = (sexo === 'hombre') ? tmb + 5 : tmb - 161;
   const mantenimiento = tmb * actividad;
   const kcalFinal = mantenimiento + objetivo;
-  const agua = (peso * 25) / 1000;
+  const agua = (peso * 28) / 1000;
 
   document.getElementById('resultados').style.display = 'block';
   document.getElementById('val-imc').innerText = imc.toFixed(1);
